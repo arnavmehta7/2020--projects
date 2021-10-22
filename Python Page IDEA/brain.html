@@ -1,0 +1,973 @@
+<div class="rendered-markdown jsx-3336317089">
+	<h1>✨✨Hello✨There✨✨</h1>
+	<p>Welcome to My <del>Boring</del> Fun 🐍🐍Python🐍🐍 Tutorial where I will be teaching YOU python. This tutorial
+		will cover the basics of python an I promise you that you will learn a Lot. Without a Further a due go and learn
+		Python! Credits to <span class="jsx-589677836 user-hover-card user-hover-card-inline"><a
+				href="https://replit.com/@RhinoRunner">@RhinoRunner</a></span> for helping with the tutorial. (Please
+		don't think I am cycle squeezing, this tutorial took me around 1000 lines of markdown). I have attached a repl
+		down below that is a copy of this tutorial(It's split up into 3 files, because the file became to large for our
+		computers to handle.)</p>
+	<p>Note: Feel free to tell me if something is unclear or if it isn't correct, or if there is anything I can add.</p>
+	<p><strong>Edit4: Since this is so popular I will resume making part 2, sorry for the 5 month delay lol. And since I
+			want to get part 2 up soon if anyone wants to help then just comment on the post. </strong></p>
+	<h1>Course Content</h1>
+	<p>Before I get started here is the Course Content</p>
+	<ul>
+		<li>Comments<ul>
+				<li>Single-Line</li>
+				<li>Multi-Line</li>
+			</ul>
+		</li>
+		<li>Print Statements<ul>
+				<li>Single-Line</li>
+				<li>Multi-Line</li>
+			</ul>
+		</li>
+		<li>Data Types<ul>
+				<li>Strings</li>
+				<li>Integers</li>
+				<li>Floating Points</li>
+				<li>Booleans</li>
+			</ul>
+		</li>
+		<li>Variables<ul>
+				<li>Proper Variable Names</li>
+				<li>Printing them</li>
+				<li>Changing them</li>
+				<li>Type Function</li>
+				<li>f-strings</li>
+				<li>.format</li>
+			</ul>
+		</li>
+		<li>String Methods<ul>
+				<li>indexing</li>
+				<li>slicing</li>
+			</ul>
+		</li>
+		<li>Concatenation<ul>
+				<li>Printing Using Concatenation</li>
+				<li>Assigning Variables Using Concatenation</li>
+				<li>Type Casting</li>
+			</ul>
+		</li>
+		<li>Operators<ul>
+				<li>Basic Operators</li>
+				<li>Assignment Operators</li>
+				<li>Comparison Operators</li>
+			</ul>
+		</li>
+		<li>Getting Inputs<ul>
+				<li>Storing inputs in a variable</li>
+				<li>Specifying input type</li>
+			</ul>
+		</li>
+		<li>Practice Problem</li>
+		<li>Lists<ul>
+				<li>List Methods</li>
+			</ul>
+		</li>
+		<li>Conditional Statements<ul>
+				<li>if</li>
+				<li>else</li>
+				<li>elif</li>
+				<li>pass</li>
+				<li>logic</li>
+			</ul>
+		</li>
+		<li>Practice Problem</li>
+		<li>Loops<ul>
+				<li>for Loops</li>
+				<li>while Loops</li>
+			</ul>
+		</li>
+		<li>Practice Problem</li>
+		<li>Escape Codes</li>
+		<li>Functions<ul>
+				<li>Return</li>
+				<li>Parameters</li>
+				<li>Lambda</li>
+				<li>Scope<ul>
+						<li>Global</li>
+						<li>Local</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<p><strong>Let's Get Started!</strong></p>
+	<h1>Comments</h1>
+	<h2>Single-Line Comments</h2>
+	<p>Comments are blocks of code that are ignored by the computer and can be used to stay stuff about your code. The
+		way to tell your computer that you are entering a comment is with a <code>#</code>.</p>
+	<p>So here's an example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span class="hljs-comment">#This is
+				a comment</span></code></pre>
+	<h2>Multi-Line Comments</h2>
+	<p>You can also have comments that span multiple lines which are done with three single or double quotes to start
+		and 3 to end.</p>
+	<p>Here's an example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span class="hljs-comment">#This is
+				a single line comment</span>
+			<span class="hljs-string">'''
+				This
+				is
+				a
+				multiline
+				comment
+				'''</span></code></pre>
+	<p>Comments are mostly used when you want to say something about how your code works, so when you revisit your code
+		you aren't confused on what you were doing. Another common use is when you want to leave some code out of your
+		program and not have it run without completely removing it from your code.</p>
+	<h1>Printing</h1>
+	<p>The <code>print()</code> function prints(or outputs) something to the console.</p>
+	<h2>Single-Line Printiing</h2>
+	<p>Here's an example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">print(<span
+				class="hljs-string">"Python Rules"</span>)
+			<span class="hljs-comment">#You can use either Double Quotes or Single Quotes, but using Double Quotes is
+				the best Practice</span>
+			print(<span class="hljs-string">'Python Rules'</span>)
+			<span class="hljs-comment">#This works too</span></code></pre>
+	<p>This would output</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">Python Rules
+			Python Rules</code></pre>
+	<h2>Multi-Line Printing</h2>
+	<p>If you want to print text for multiple lines then use 3 single quotes or doubles quotes to start and 3 to end.
+	</p>
+	<p>Here's an example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">print(<span
+				class="hljs-string">"Here's my to do list"</span>)
+
+			print(<span class="hljs-string">"""
+
+				To Do:
+
+				[1] Code In Python
+				[2] Code In Python
+				[3] Code In Python
+				"""</span>)</code></pre>
+	<p>The Output:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">Here's My to do list
+
+
+			To Do:
+
+			[1] Code In Python
+			[2] Code In Python
+			[3] Code In Python</code></pre>
+	<h1>Data Types</h1>
+	<p><code>str</code> or <code>string</code> is a data type that is a sequence of characters and is surrounded in
+		double or single quotes</p>
+	<p>Ex: <code>"Python Rocks"</code>,<code>'Python is Fun'</code></p>
+	<hr>
+	<p><code>int</code> or <code>integer</code> is a any positive or negative number (without decimals)</p>
+	<p>Ex: <code>5</code>,<code>69</code>,<code>-568</code></p>
+	<hr>
+	<p><code>float</code> is any positive or negative number with a decimals</p>
+	<p>Ex: <code>69.69</code>,<code>5.0</code>,<code>-15.89</code></p>
+	<hr>
+	<p><code>bool</code> or <code>boolean</code> is a True or False(It can <code>only</code> be <code>True</code> or
+		<code>False</code>) value that can be used for Logic (Make sure to capatalize it)</p>
+	<h1>Variables</h1>
+	<p>Variables are data types that are assigned to variable names and are used to store information. </p>
+	<h2>Proper Variable Names</h2>
+	<p>They can use numbers,letters,and underscores, but can't start with numbers. No spaces are allowed either(Use
+		underscores instead). You should use variable names that relate to the value being stored, and variable names
+		that are also short. </p>
+	<p>Here are a few example of valid and good Variable names:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">Apple_Cost = <span
+				class="hljs-number">0.49</span>
+			Apples_Amnt = <span class="hljs-number">5</span></code></pre>
+	<h2>Printing Variables</h2>
+	<p>You can also print variables by putting them in the parenthisis of the print Statements</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">name = <span
+				class="hljs-string">"IntellectualGuy"</span>
+			print(name)</code></pre>
+	<p>It would output <code>IntellectualGuy</code></p>
+	<h2>Reassigning Variables</h2>
+	<p>You can also change the value of the variable by simply just reassigning it</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">Pog = <span
+				class="hljs-keyword">False</span>
+			Pog = <span class="hljs-keyword">True</span></code></pre>
+	<p>You can also switch the data type</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">Bannanas = <span
+				class="hljs-keyword">False</span>
+			Bannanas = <span class="hljs-number">3</span></code></pre>
+	<h2>Type Function</h2>
+	<p>After you change a variable a lot you might want to find out what data type it is so you just use the
+		<code>type()</code> function.</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">Apples = <span
+				class="hljs-number">5</span>
+			print(type(Apples))</code></pre>
+	<p>It would output <code>&lt;class 'int'&gt;</code>, which basically means that the data type of the variable apple
+		is an int or integer.</p>
+	<h2>F-Strings</h2>
+	<p>F-Strings print out stuff with a variable in between. This will become more useful when you learn about inputs.
+	</p>
+	<p>Here's an example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">username = <span
+				class="hljs-string">"IntellectualGuy"</span>
+			print(<span class="hljs-string">f"Hello <span class="hljs-subst">{username}</span>"</span>)
+			cycles = <span class="hljs-number">100</span>
+			print(<span class="hljs-string">f"Hello <span class="hljs-subst">{username}</span> you have <span
+					class="hljs-subst">{cycles}</span> cycles"</span>)</code></pre>
+	<p>It would output:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">Hello IntellectualGuy
+			Hello IntellectualGuy you have 100 cycles</code></pre>
+	<h2>.format()</h2>
+	<p>Another Way to do that is using the .format method which you use like so</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">print(<span
+				class="hljs-string">"Hello {}"</span>.format(<span class="hljs-string">"IntellectualGuy"</span>))
+
+			<span class="hljs-comment">#You can insert more than one value</span>
+			print(<span class="hljs-string">"Hello {} you have {} cycles"</span>.format(username,cycles))
+
+			<span class="hljs-comment">#You can use variables</span>
+			print(<span class="hljs-string">"How many {fruit} would you like to buy? Each costs
+				${cost}."</span>.format(fruit = <span class="hljs-string">"bannanas"</span>, cost = <span
+				class="hljs-number">0.75</span>))
+
+			<span class="hljs-comment">#You can also use indexing</span>
+			print(<span class="hljs-string">"Hello {0} you bought {1} bannanas"</span>.format(<span
+				class="hljs-string">"IntellectualGuy"</span>,<span class="hljs-number">3</span>))</code></pre>
+	<p>Output:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">Hello IntellectualGuy
+			Hello IntellectualGuy you have 100 cycles
+			How many bannanas would you like to buy? Each costs $0.75.
+			Hello IntellectualGuy you bought 3 bannanas</code></pre>
+	<h1>String Methods</h1>
+	<p>There are many different string methods that you can use. String methods are basically functionsthat you can
+		apply to your strings. FOr example the <code>print()</code> function that I explained earlier can print a string
+		to the console. </p>
+	<p>Something to know before starting string methods it that each character in a string has an index value, starting
+		from 0.</p>
+	<p>Here's an example</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span class="hljs-string">"H e l l
+				o"</span>
+			<span class="hljs-number">0</span> <span class="hljs-number">1</span> <span class="hljs-number">2</span>
+			<span class="hljs-number">3</span> <span class="hljs-number">4</span>
+
+			<span class="hljs-comment">#This shows in the string hello, what characters are in what index
+				positions</span></code></pre>
+	<p>Index positions can also be in the negatives like so</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span class="hljs-string">"H e l l
+				o"</span>
+			<span class="hljs-number">-5</span> <span class="hljs-number">-4</span> <span class="hljs-number">-3</span>
+			<span class="hljs-number">-2</span> <span class="hljs-number">-1</span></code></pre>
+	<p>Negative index positions are mainly used for things like getting the last character of a string</p>
+	<h2>Indexing</h2>
+	<p>Indexing is getting the value of a certain index of a string, and you use it like so</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">greeting = <span
+				class="hljs-string">"Hello"</span>
+			print(greeting[<span class="hljs-number">3</span>])</code></pre>
+	<p>Output: <code>l</code></p>
+	<p>You can also use negative indexing to get a character</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-python hljs">greeting = <span
+				class="hljs-string">"Hello"</span>
+			print(greeting[<span class="hljs-number">-1</span>])</code></pre>
+	<p>Output:<code>o</code></p>
+	<h2>Slicing</h2>
+	<p>Slicing is used to get a certain part of a string like so</p>
+	<h2>Length</h2>
+	<p>Length is used to get the length , the syntax is <code>len(string)</code> of a string and is used like so</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">greeting = <span
+				class="hljs-string">"Hello"</span>
+			print(len(greeting))</code></pre>
+	<p>Output:<code>5</code></p>
+	<h2>Upper</h2>
+	<p>The <code>.upper()</code> method is used to uppercase a string like so</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">name = <span
+				class="hljs-string">"bob"</span>
+			print(name.upper())</code></pre>
+	<p>Output: <code>BOB</code></p>
+	<h2>Lower</h2>
+	<p>The <code>.lower()</code> method is used to lowercase a string like so</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">name = <span
+				class="hljs-string">"SAM"</span>
+			print(name.lower())</code></pre>
+	<p>Output: <code>sam</code></p>
+	<h1>Concatenation</h1>
+	<p>Concatenation is when you add/join 2 or more strings together.</p>
+	<p>For example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">User_Type = <span
+				class="hljs-string">"Admin"</span>
+			print(<span class="hljs-string">"You are the"</span> + User_Type)</code></pre>
+	<p>Output: <code>You are the Admin.</code></p>
+	<p>You can also assign a variable using Concatenation</p>
+	<p>For example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">User_Type = <span
+				class="hljs-string">"Guest"</span>
+			Message = <span class="hljs-string">"You are a"</span> + User_Type
+			print(Message)</code></pre>
+	<p>Output: <code>You are a Guest</code></p>
+	<p>Remember you can Concatenate more than 2 strings together</p>
+	<p>For Example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">User_Type = <span
+				class="hljs-string">"Admin"</span>
+			Message = <span class="hljs-string">"Hello"</span> + User_Type + <span class="hljs-string">"What would you
+				like to do?"</span>
+			print(Message)</code></pre>
+	<p>Output: <code>Hello Admin What would you like to do?</code></p>
+	<h2>Type Casting</h2>
+	<p>You can't Concatenate strings with integers/floats/booleans, you would have to cast the type, let's say you
+		wanted to print out a message with a number using Concatenation, then you would use tyoe casting, which let's
+		you change the type of a variable.</p>
+	<p>Ex:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">Age = <span
+				class="hljs-number">5</span>
+
+			print(<span class="hljs-string">"Bob you are "</span> + Age + <span class="hljs-string">" years
+				old."</span>)
+			<span class="hljs-comment">#That would produce a Type error, and the way to fix that is to cast the integer
+				age into a string.</span>
+
+			<span class="hljs-comment">#Let's do it again without producing an error</span>
+			Age = <span class="hljs-number">5</span>
+			print(<span class="hljs-string">"Bob you are "</span> + str(age) + <span class="hljs-string">" years
+				old."</span>)
+
+			<span class="hljs-comment">#The syntax for type casting is the data type you want to convert the variable to
+				and then the variable inside paranthesis</span>
+			<span class="hljs-comment">#datatype(variable)</span>
+
+			<span class="hljs-comment">#Let's try another Example</span>
+			Name = <span class="hljs-string">"Bob"</span>
+			print(<span class="hljs-string">"I know someone who is 5 years old, his name is"</span> + int(Name))
+			<span class="hljs-comment">#This would produce an error because you can't convert the string into an
+				integer, as Bob is not a number</span></code></pre>
+	<p>Note: Type casting only temporarily changes the data type of the variable, not permanently, If you wanted to
+		though then you could assign the variable to the casted variable like solution</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">age = <span
+				class="hljs-number">5</span>
+			age = str(age)
+			<span class="hljs-comment">#Now instead of being the integer 5, age is now the string "5"</span></code>
+	</pre>
+	<h1>Operators</h1>
+	<h2>Basic Operators</h2>
+	<p>You can do basic Math with Python.</p>
+	<p>Addition - You can add Two numbers with a plus sign <code>+</code><br>Ex: <code>5 + 5</code> , <code>6.9 +
+			9.6</code><br>Output: <code>10</code> , <code>16.5</code></p>
+	<p>Subtraction - You can subtract Two numbers with a plus sign <code>-</code><br>Ex: <code>10 - 5</code> , <code>9.6
+			- 6.9</code><br>Output: <code>5</code> , <code>2.7</code></p>
+	<p>Multiplication - You can multiply Two numbers with an asterik <code>*</code><br>Ex: <code>5 * 5</code> ,
+		<code>5.5 * 3</code><br>Output: <code>25</code> , <code>16.5</code></p>
+	<p>Division - You can divide Two numbers with a forward slash <code>/</code><br>Ex: <code>50 / 5</code> , <code>20.4
+			/ 4</code><br>Output: <code>10</code> , <code>5.1</code></p>
+	<p>Power - You can get a power of a number with 2 asteriks <code>**</code><br>Ex: <code>2 ** 3</code><br>Output:
+		<code>8</code></p>
+	<p>Modulo - You can get the remainder between Two numbers with a Percentage sign <code>%</code><br>Ex: <code>69 %
+			6</code> , <code>25 % 5</code><br>Output: <code>3</code> , <code>0</code></p>
+	<p>Floor Divison: Ignores decimals when doing Division with two forward slashes <code>//</code><br>Ex:<code>10 //
+			3</code>,<code>17 // 4</code><br>Output: <code>3</code>,<code>4</code></p>
+	<p>You can assign variables to use them for math<br>Ex:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">a = <span
+				class="hljs-number">10</span>
+			b = <span class="hljs-number">5</span>
+			print(a + b)
+			print(a - b)
+			print(a * b)
+			print(a / b)
+			print(a % b)</code></pre>
+	<p>Output:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">15
+			5
+			50
+			2
+			0</code></pre>
+	<h2>Assingment Operators</h2>
+	<p>Assignment operators are used to assign variables using operations. Here is a list of them.</p>
+	<p><code>+=</code><br><code>-=</code><br><code>*=</code><br><code>/=</code><br><code>%=</code><br><code>//=</code><br><code>**=</code>
+	</p>
+	<p>Now let's have a few examples of using them</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">a = <span
+				class="hljs-number">15</span>
+			b = <span class="hljs-number">10</span>
+
+			<span class="hljs-comment">#After I print each value out prentend that I am reseting the value of a</span>
+			a += b
+			print(a)
+			a -= b
+			print(a)
+			a *= b
+			print(a)
+			a /= b
+			print(a)
+			a %= b
+			print(a)
+			a //= b
+			print(a)
+			a **= b
+			print(a)
+			<span class="hljs-comment">#I won't show the output for this because it is to big, but it would output the
+				result of 15**10 </span></code></pre>
+	<p>Output:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">25
+			5
+			150
+			1.5
+			5
+			1
+			Output of 15**10</code></pre>
+	<p>The Assignment operators are technically just shortened down Basic Operators. For example <code>a += b</code> is
+		just saying <code>a = a + b</code>,it's just another way to write it, however I still recommend using the
+		shortened version.</p>
+	<h2>Comparison Operators</h2>
+	<p>Comparison operators are used to get a true or false value. Here is a list of them</p>
+	<p>Checking if a value is equal to another value. If it is equal to the other value then the it is True. Otherwise
+		if the other value is not equal to the value it is False - <code>==</code></p>
+	<hr>
+	<p>Checking if a value is not equal to another value. If it is equal to the other value be compared then it is
+		false. Otherwise if the value is not equal to the other value then it is False - <code>!=</code></p>
+	<hr>
+	<p>Checking if a value is greater than another value. If it is greater than the other value then it is True.
+		Otherwise if the value is less than or equal to the other value then it is False - <code>&gt;</code></p>
+	<hr>
+	<p>Checking if a value is less than another value. If it is less than the other value then it is true. Otherwise if
+		the value is greater than or equal to the other value it is False - <code>&lt;</code></p>
+	<hr>
+	<p>Checking if a value is greater than or equal to another value. If it is greater than or equal to the other value
+		then it is True. Otherwise if the value is less than the other value then it is False - <code>&gt;=</code></p>
+	<hr>
+	<p>Checking if a value is less than or equal to another value. If it is less than or equal to the other value then
+		it is True. Otherwise if the value is greater than the other value then it is False. - <code>&lt;=</code></p>
+	<hr>
+	<p>Something to remember is that there are opposite comparison operators like <code>==</code> and <code>!=</code>
+		are opposite value because <code>==</code> is checking if the values are same and <code>!=</code> is checking if
+		the values are different.</p>
+	<p>Opposite Pairs:</p>
+	<p><code>==</code> and <code>!=</code><br><code>&gt;</code> and <code>&lt;=</code><br><code>&lt;</code> and
+		<code>&gt;=</code></p>
+	<h1>Getting Inputs</h1>
+	<p>You can also get the user to input something using the <code>input()</code> function, here's an example of using
+		it:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">input(<span
+				class="hljs-string">"How old are you: "</span>)</code></pre>
+	<p>Output</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">How old are you: 69</code></pre>
+	<p>It would output <code>How old are you</code> and then I could say whatever my age was.</p>
+	<h2>Storing inputs in a variable</h2>
+	<p>You can store the input that you get from a user into a variable like so</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">age = input(<span
+				class="hljs-string">"How old are you?"</span>)</code></pre>
+	<p>Output:</p>
+	<p><code>How old are you: 69</code></p>
+	<p>Remember it doesn't print 69, I am just using 69 as an example input.</p>
+	<h2>Specifying input type</h2>
+	<p>You can also specify the data type of the input like so</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">age = int(input(<span
+				class="hljs-string">"How old are you?"</span>))</code></pre>
+	<p>Output:</p>
+	<p><code>How old are you: 69</code></p>
+	<h1>Practice Problem 1</h1>
+	<p>Small Exercise</p>
+	<p>Try to make an multiplication calculator where you ask the user to input 2 numbers and then output the product of
+		the 2 numbers</p>
+	<p>Solution:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-python hljs"><span class="hljs-comment">#Getting a
+				number from the user</span>
+			number1 = int(input(<span class="hljs-string">"Enter a number"</span>))
+			<span class="hljs-comment">#Getting another from the user</span>
+			number2 = int(input(<span class="hljs-string">"Enter another number"</span>))
+			<span class="hljs-comment">#Adding the 2 numbers together</span>
+			product = number1 * number2
+			<span class="hljs-comment">#Printing out a message to the user telling them the product of the two
+				numbers</span>
+			print(<span class="hljs-string">f"The product of <span class="hljs-subst">{number1}</span> and <span
+					class="hljs-subst">{number2}</span> is <span class="hljs-subst">{product}</span>"</span>)</code>
+	</pre>
+	<h1>Lists</h1>
+	<p>Lists are one of the more complex python data type. Lists hold other data types like strings, integers, floats,
+		and even lists(We will go over nested lists in the next tutorial). They are declared using this syntax</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">fruits = [<span
+				class="hljs-string">'apple'</span>,<span class="hljs-string">'bannana'</span>,<span
+				class="hljs-string">'orange'</span>]</code></pre>
+	<p>Each list item has an index, like strings. The index starts from 0.</p>
+	<p>Here's an example to show</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">fruits = [<span
+				class="hljs-string">'apple'</span>,<span class="hljs-string">'bannana'</span>,<span
+				class="hljs-string">'orange'</span>]
+			<span class="hljs-comment"># 0 1 2</span></code></pre>
+	<p>Lists also use negative indexing</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">fruits = [<span
+				class="hljs-string">'apple'</span>,<span class="hljs-string">'bannana'</span>,<span
+				class="hljs-string">'orange'</span>]
+			<span class="hljs-comment"># -3 -2 -1</span></code></pre>
+	<h2>List Methods</h2>
+	<p>There are many methods that you can use with lists.</p>
+	<p>The <code>.append()</code> method adds an item to the list</p>
+	<p>Example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">fruits = [<span
+				class="hljs-string">'apple'</span>,<span class="hljs-string">'bannana'</span>,<span
+				class="hljs-string">'orange'</span>]
+			fruits.append(<span class="hljs-string">'mango'</span>)</code></pre>
+	<p>Now fruits is <code>['apple','bannana','orange','mango']</code></p>
+	<p>The <code>.pop()</code> method removes an item from a specific index</p>
+	<p>Example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">fruits = [<span
+				class="hljs-string">'apple'</span>,<span class="hljs-string">'bannana'</span>,<span
+				class="hljs-string">'orange'</span>,<span class="hljs-string">'mango'</span>]
+			fruits.pop(<span class="hljs-number">3</span>)</code></pre>
+	<p>Now fruits is <code>['apple','bannana','orange']</code></p>
+	<p>The <code>.remove()</code> method remove a certain item from a list</p>
+	<p>Example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">fruits = [<span
+				class="hljs-string">'apple'</span>,<span class="hljs-string">'bannana'</span>,<span
+				class="hljs-string">'orange'</span>,<span class="hljs-string">'mango'</span>]
+			fruits.remove(<span class="hljs-string">'orange'</span>)</code></pre>
+	<p>Now fruits is <code>['apple','bannana','mango']</code></p>
+	<p>The <code>del</code> method can delete a whole list or a specific index of a list</p>
+	<p>Example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">fruits = [<span
+				class="hljs-string">'apple'</span>,<span class="hljs-string">'bannana'</span>,<span
+				class="hljs-string">'orange'</span>,<span class="hljs-string">'mango'</span>]
+			<span class="hljs-keyword">del</span> fruits[<span class="hljs-number">0</span>]</code></pre>
+	<p>Now fruits is <code>['bannana','orange','mango']</code></p>
+	<p>Another Example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">fruits = [<span
+				class="hljs-string">'apple'</span>,<span class="hljs-string">'bannana'</span>,<span
+				class="hljs-string">'orange'</span>,<span class="hljs-string">'mango'</span>]
+			<span class="hljs-keyword">del</span> fruits</code></pre>
+	<p>Now there is no fruits list.</p>
+	<h1>Conditionals</h1>
+	<p>Conditionals can be used to create code that will run if a certain condition will used, the syntax is like so</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span
+				class="hljs-keyword">if</span> [condition]:
+			code</code></pre>
+	<p>If you don't specify if you want the code to run if the condition is true or false then the default is that when
+		your code is run, if the condition is true then the code will run.</p>
+	<p>Here's an example of a valid if statement using comparison operators</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">age = <span
+				class="hljs-number">69</span>
+			<span class="hljs-keyword">if</span> age == <span class="hljs-number">69</span>:
+			print(<span class="hljs-string">"You are 69 years old"</span>)</code></pre>
+	<p>Output:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">You are 69 years old</code></pre>
+	<p>Another Example</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">age = <span
+				class="hljs-number">69</span>
+			<span class="hljs-keyword">if</span> age == <span class="hljs-number">13</span>:
+			print(<span class="hljs-string">"You are 13 years old"</span>)</code></pre>
+	<p>Output:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span class="hljs-comment">#Nothing
+				because you are the varaible age is not 13, and only if the age is 13, then it will say You are 13 years
+				old.</span></code></pre>
+	<h2>Elif</h2>
+	<p>Elif is to have multiple conditions that can check if something is true if the if statement is not true. You can
+		have as many elif statements as you want.</p>
+	<p>Example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">age = <span
+				class="hljs-number">9</span>
+			<span class="hljs-keyword">if</span> age == <span class="hljs-number">13</span>:
+			print(<span class="hljs-string">"You are 13 years old"</span>)
+			<span class="hljs-keyword">elif</span> age == <span class="hljs-number">9</span>:
+			print(<span class="hljs-string">"You are 9 years old"</span>)</code></pre>
+	<p>Output</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">You are 9 years old</code></pre>
+	<p>Another Example</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-python hljs">age = <span
+				class="hljs-number">11</span>
+			<span class="hljs-keyword">if</span> age == <span class="hljs-number">13</span>:
+			print(<span class="hljs-string">"You are 13 years old"</span>)
+			<span class="hljs-keyword">elif</span> age == <span class="hljs-number">4</span>:
+			print(<span class="hljs-string">"You are 4 years old"</span>)</code></pre>
+	<p>Output:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span class="hljs-comment">#Nothing
+				because in the first statement, age is not 13, so it won't run and in the second statement age is not 4
+				so it won't run either </span></code></pre>
+	<h2>Else</h2>
+	<p>Else conditions, are run when all of your if or elif statements are run, and haven't been executed.</p>
+	<p>Note: In if,elif, and else statements, in a single conditional, only one condition will run. So let's say you
+		have multiple conditions, and 2 of them are true. The one that was stated the first will be run, and the second
+		one won't be run.</p>
+	<p>Here's an example</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">age = <span
+				class="hljs-number">8</span>
+			<span class="hljs-keyword">if</span> age == <span class="hljs-number">13</span>:
+			print(<span class="hljs-string">"You are 13 years old"</span>)
+			<span class="hljs-keyword">elif</span> age == <span class="hljs-number">9</span>:
+			print(<span class="hljs-string">"You are 9 years old"</span>)
+			<span class="hljs-keyword">else</span>:
+			print(<span class="hljs-string">"You are not 9 or 13 years old"</span>)</code></pre>
+	<p>Another Example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">age = <span
+				class="hljs-number">13</span>
+			name = <span class="hljs-string">"Bob"</span>
+			<span class="hljs-keyword">if</span> age == <span class="hljs-number">13</span>:
+			print(<span class="hljs-string">"You are 13 years old"</span>)
+			<span class="hljs-keyword">elif</span> age == <span class="hljs-number">9</span>:
+			print(<span class="hljs-string">"You are 9 years old"</span>)
+			<span class="hljs-keyword">elif</span> name == <span class="hljs-string">"Bob"</span>:
+			print(<span class="hljs-string">"Your name is Bob"</span>)
+			<span class="hljs-keyword">elif</span> name == <span class="hljs-string">"Mike"</span>:
+			print(<span class="hljs-string">"Your name is Mike"</span>)
+			<span class="hljs-keyword">else</span>:
+			print(<span class="hljs-string">"You are not Mike or Bob, and you are not 13 or 9."</span>)</code></pre>
+	<p>Output:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">You are 13 years old</code></pre>
+	<p>Remember the reason it won't output "Your name is Bob" is because only one statement will run in a single
+		conditional statement.</p>
+	<h2>pass</h2>
+	<p>The <code>pass</code> keyword is used as a placeholder so when you have a if statement that you want nothing to
+		execute if that condition is true then use the <code>pass</code> keyword</p>
+	<p>Example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">age = <span
+				class="hljs-number">15</span>
+			<span class="hljs-keyword">if</span> age == <span class="hljs-number">15</span>:
+			<span class="hljs-keyword">pass</span>
+			<span class="hljs-keyword">else</span>:
+			print(<span class="hljs-string">"You are not 15"</span>)</code></pre>
+	<p>This wouldn't output anything because nothing happens in the if statement because there is a <code>pass</code>
+	</p>
+	<h2>Logic</h2>
+	<p>You can have multiple conditions in each if statement, using the <code>and</code> keyword and the <code>or</code>
+		keyword.</p>
+	<p>When you used the <code>and</code> keyword then the code will only run when all conditions are true. </p>
+	<p>When you use the <code>or</code> keyword then the code will run if one or more of the conditions are true.</p>
+	<h1>Practice Problem 2</h1>
+	<p>Small Exercise</p>
+	<p>Try to make an odd and even checker, where you get a number from user input and then the computer will check if
+		the number is odd or even. If it is odd then print out the number and say that it is odd, and if it is even then
+		print out the number and say that it is even. Go make a new repl and try it out! If it becomes too hard then
+		feel free to check out the solution.</p>
+	<p>Solution</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span class="hljs-comment">#First
+				Let's get the number input from the user, and let's call it number_input</span>
+			number_input = int(input(<span class="hljs-string">"What number Would you like to check?"</span>))
+
+			<span class="hljs-comment">#Then let's create the conditional Statements</span>
+			<span class="hljs-comment">#Checking if the number is even</span>
+			<span class="hljs-keyword">if</span> number_input % <span class="hljs-number">2</span> = <span
+				class="hljs-number">0</span>:
+			<span class="hljs-comment">#Printing out the message that says the number is even</span>
+			print(<span class="hljs-string">f"Your number <span class="hljs-subst">{number_input}</span> is
+				even."</span>)
+			<span class="hljs-comment">#Now we'll have an else statement because if the number is not even then it must
+				be odd.But it's okay if you used an elif.</span>
+			<span class="hljs-keyword">else</span>:
+			<span class="hljs-comment">#Printing out the message that says the number is odd</span>
+			print(<span class="hljs-string">f"Your number <span class="hljs-subst">{number_input}</span> is
+				odd."</span>)</code></pre>
+	<h1>Loops</h1>
+	<p>Loops are used to run things multiple times, and there are 2 main types, for loops and while loops</p>
+	<h2>For Loops</h2>
+	<p>For loops are used to iterate through items in a list, dictionary, integer, or string. They can be used to do
+		something for every item in a variable. </p>
+	<p>Example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">example_list = [<span
+				class="hljs-string">'item1'</span>,<span class="hljs-string">'other item'</span>,<span
+				class="hljs-string">'last item'</span>]
+			<span class="hljs-comment">#we now have a list</span>
+
+			<span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> example_list: <span
+				class="hljs-comment">#loops through everything in the list</span>
+			<span class="hljs-comment">#and assigns the current thing to the variable i</span>
+			print(i)</code></pre>
+	<p>output:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">item1
+			other item
+			last item</code></pre>
+	<p>As you can see, it looped through every value in the list <code>example_list</code>.<br>The reason the
+		<code>i</code> is there is to have a variable you can assign to the thing it is looping through. You can change
+		<code>i</code> to any other name as long as another variable doesn't have the same name. </p>
+	<p>Another thing you can use is <code>range</code>.</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span
+				class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span
+				class="hljs-number">10</span>):
+			print(i)</code></pre>
+	<p>output:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">0
+			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9</code></pre>
+	<p>It starts from 0 and goes to the number before the number you said, so it has 10 numbers in it. </p>
+	<p>If you want to exit a <code>for</code> loop, you can use <code>break</code>.</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span
+				class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span
+				class="hljs-number">10</span>):
+			<span class="hljs-keyword">if</span> i == <span class="hljs-number">5</span>:
+			<span class="hljs-keyword">break</span>
+			<span class="hljs-keyword">else</span>:
+			print(i)</code></pre>
+	<p>output:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">0
+			1
+			2
+			3
+			4</code></pre>
+	<p>As you can see, when the number reached <code>5</code>, the loop ended.<br>You can also skip iterations using
+		<code>continue</code>.</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span
+				class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span
+				class="hljs-number">10</span>):
+			<span class="hljs-keyword">if</span> i == <span class="hljs-number">5</span>:
+			<span class="hljs-keyword">continue</span>
+			<span class="hljs-keyword">else</span>:
+			print(i)</code></pre>
+	<p>output:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">0
+			1
+			2
+			3
+			4
+			6
+			7
+			8
+			9</code></pre>
+	<p>When the loop reached 5, it skipped the print statement and went back to the beginning of the loop. </p>
+	<h2>While Loops</h2>
+	<p>While loops are used to run a program while the variable stated is the condiion stated.</p>
+	<p>Example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">num = <span
+				class="hljs-number">6</span>
+			other = <span class="hljs-number">1</span>
+			<span class="hljs-keyword">while</span> num &gt; other:
+			print(other)
+			other += <span class="hljs-number">1</span></code></pre>
+	<p>output:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">1
+			2
+			3
+			4
+			5</code></pre>
+	<p>So, the loop keeps going on so long as <code>num</code> is greater than <code>other</code>, it prints
+		<code>other</code>. But, when they were equal (both at 6), the loop stopped.</p>
+	<p>You can also use <code>break</code> and <code>continue</code> in while loops. It works the same as it did in the
+		<code>for</code> loops.<br>The most common usage for <code>while</code> loops is with <code>bool</code> values.
+	</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">var = <span
+				class="hljs-keyword">True</span>
+			<span class="hljs-keyword">while</span> var:
+			print(<span class="hljs-string">'hello'</span>)</code></pre>
+	<p>output:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">hello
+			hello
+			hello
+			hello
+			hello
+			hello
+			hello
+			hello
+			...</code></pre>
+	<p>Since <code>var</code> is never changed (it always stays true), the loop goes on forever. </p>
+	<h1>Practice Problem 3</h1>
+	<p>Make a program where for every number from 1-100, if the number is divisible by 15, it would print Fizzbuzz, if
+		the number is divisble by 5, it would print Fizz, if the number is divisble by 3 then bring Buzz, otherwise it
+		wil just print the number.Then Ask the user If they want to start the program again, if yes than restart it
+		again, otherwise break out of the loop. Go make a new repl and try it out! If it becomes too hard then feel free
+		to check the solutions.</p>
+	<p>Challenge: Ask the user the maximum number they want the program to run to.</p>
+	<p>Solution:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span class="hljs-comment">#A while
+				loop to keep on running the program if the user wants it to</span>
+			<span class="hljs-keyword">while</span> <span class="hljs-keyword">True</span>:
+			<span class="hljs-comment">#A for loop to iterate through each number in the range of 1-100</span>
+			<span class="hljs-keyword">for</span> number <span class="hljs-keyword">in</span> range(<span
+				class="hljs-number">1</span>,<span class="hljs-number">101</span>):
+			<span class="hljs-comment">#An if statement to check if the number is divisble by 15</span>
+			<span class="hljs-keyword">if</span> number % <span class="hljs-number">15</span> == <span
+				class="hljs-number">0</span>:
+			<span class="hljs-comment">#Printing out Fizzbuzz</span>
+			print(<span class="hljs-string">"Fizzbuzz"</span>)
+			<span class="hljs-comment">#An elif statement to check if the number is divisble by 5</span>
+			<span class="hljs-keyword">elif</span> number % <span class="hljs-number">5</span> == <span
+				class="hljs-number">0</span>:
+			<span class="hljs-comment">#Printing out Fizz</span>
+			print(<span class="hljs-string">"Fizz"</span>)
+			<span class="hljs-comment">#An elif statement to check if the number is divisble by 3</span>
+			<span class="hljs-keyword">elif</span> number % <span class="hljs-number">3</span> == <span
+				class="hljs-number">0</span>:
+			<span class="hljs-comment">#Printing out Buzz</span>
+			print(<span class="hljs-string">"Buzz"</span>)
+			<span class="hljs-comment">#An else statement to print out the number</span>
+			<span class="hljs-keyword">else</span>:
+			<span class="hljs-comment">#Printing out the number</span>
+			print(number)
+			<span class="hljs-comment">#Asking the user if they want the program to run again</span>
+			again = str(input(<span class="hljs-string">"Would you like to run the program again? Enter Y/N: "</span>))
+			<span class="hljs-comment">#An if statement checking if the user said they want the program to run</span>
+			<span class="hljs-keyword">if</span> again.upper() == <span class="hljs-string">'Y'</span>:
+			<span class="hljs-comment">#Using pass as a placeholder because we want the program to continue</span>
+			<span class="hljs-keyword">pass</span>
+			<span class="hljs-comment">#An else statement to break the while loop</span>
+			<span class="hljs-keyword">else</span>:
+			<span class="hljs-comment">#Breaking the loop</span>
+			<span class="hljs-keyword">break</span></code></pre>
+	<p>Challenge solution:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span class="hljs-comment">#A while
+				loop to keep on running the program if the user wants it to</span>
+			<span class="hljs-keyword">while</span> <span class="hljs-keyword">True</span>:
+			<span class="hljs-comment">#Asking the user what they would like the maximum number to be</span>
+			max_range = input(<span class="hljs-string">"What would you like the range to be? "</span>)
+			<span class="hljs-comment">#A for loop to iterate through each number in the range of 1- whatever number
+				they chose</span>
+			<span class="hljs-keyword">for</span> number <span class="hljs-keyword">in</span> range(max_range):
+			<span class="hljs-comment">#An if statement to check if the number is divisble by 15</span>
+			<span class="hljs-keyword">if</span> number % <span class="hljs-number">15</span> == <span
+				class="hljs-number">0</span>:
+			<span class="hljs-comment">#Printing out Fizzbuzz</span>
+			print(<span class="hljs-string">"Fizzbuzz"</span>)
+			<span class="hljs-comment">#An elif statement to check if the number is divisble by 5</span>
+			<span class="hljs-keyword">elif</span> number % <span class="hljs-number">5</span> == <span
+				class="hljs-number">0</span>:
+			<span class="hljs-comment">#Printing out Fizz</span>
+			print(<span class="hljs-string">"Fizz"</span>)
+			<span class="hljs-comment">#An elif statement to check if the number is divisble by 3</span>
+			<span class="hljs-keyword">elif</span> number % <span class="hljs-number">3</span> == <span
+				class="hljs-number">0</span>:
+			<span class="hljs-comment">#Printing out Buzz</span>
+			print(<span class="hljs-string">"Buzz"</span>)
+			<span class="hljs-comment">#An else statement to print out the number</span>
+			<span class="hljs-keyword">else</span>:
+			<span class="hljs-comment">#Printing out the number</span>
+			print(number)
+			<span class="hljs-comment">#Asking the user if they want the program to run again</span>
+			again = str(input(<span class="hljs-string">"Would you like to run the program again? Enter Y/N: "</span>))
+			<span class="hljs-comment">#An if statement checking if the user said they want the program to run</span>
+			<span class="hljs-keyword">if</span> again.upper() == <span class="hljs-string">'Y'</span>:
+			<span class="hljs-comment">#Using pass as a placeholder because we want the program to continue</span>
+			<span class="hljs-keyword">pass</span>
+			<span class="hljs-comment">#An else statement to break the while loop</span>
+			<span class="hljs-keyword">else</span>:
+			<span class="hljs-comment">#Breaking the loop</span>
+			<span class="hljs-keyword">break</span></code></pre>
+	<h1>Escape Codes</h1>
+	<p>There are multiple escape codes that you can use in your code to do different things</p>
+	<p><code>\n</code> This prints the text on a new line.</p>
+	<p>Ex:</p>
+	<p>Code:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">print(<span
+				class="hljs-string">"Hello\nTesting\n\nBackslash n"</span>)</code></pre>
+	<p>Output:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">Hello
+			Testing
+
+			Backslash n</code></pre>
+	<p><code>\t</code> This prints a tab.</p>
+	<p>Ex:</p>
+	<p>Code:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">print(<span
+				class="hljs-string">'\ttab\t\t\tmore tabs'</span>)</code></pre>
+	<p>Output:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null"> tab more tabs</code></pre>
+	<h1>Functions</h1>
+	<p>A function is a block of code that runs code. They are mainly used when you want to use code again and again,
+		without having to write it multiple times.</p>
+	<p>Here is the syntax for it</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span class="hljs-function"><span
+					class="hljs-keyword">def</span> <span class="hljs-title">function_name</span><span
+					class="hljs-params">()</span>:</span>
+			code_to_run</code></pre>
+	<p>Here is an example:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span class="hljs-function"><span
+					class="hljs-keyword">def</span> <span class="hljs-title">add</span><span
+					class="hljs-params">()</span>:</span>
+			sum = <span class="hljs-number">5</span> + <span class="hljs-number">5</span>
+			print(sum)</code></pre>
+	<p>The way that you use or call functions is through this syntax</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">add()</code></pre>
+	<p>Output: <code>10</code></p>
+	<p>And you can use the function multiple times.</p>
+	<h2>return</h2>
+	<p>There is a special keyword that can be used in functions and it is the <code>return</code> keyword </p>
+	<p>What the return keyword does, is that it gives the function that you call a value. And you have to print the
+		function out when you want the code that was run </p>
+	<p>So here's an example</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span class="hljs-function"><span
+					class="hljs-keyword">def</span> <span class="hljs-title">try_func</span><span
+					class="hljs-params">()</span>:</span>
+			x = <span class="hljs-number">5</span>
+			<span class="hljs-keyword">return</span> x
+			try_func()</code></pre>
+	<p>You might think that using <code>try_func()</code> would print out 5, but really it would assign the value of 5
+		to the function. If you wanted it to print out 5, then you would have to do <code>print(tryfunc())</code></p>
+	<h2>Parameters</h2>
+	<p>Parameters are something used in a function to make it more versatile and interactive. Parameters are variables,
+		that you pass in when trying to call a function.</p>
+	<p>Here's the syntax:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span class="hljs-function"><span
+					class="hljs-keyword">def</span> <span class="hljs-title">function_name</span><span
+					class="hljs-params">(parameters_needed)</span>:</span>
+			code_to_run</code></pre>
+	<p>Syntax to run it:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">function_name(parameters)</code>
+	</pre>
+	<p>Here's an example of a function using paramters</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span class="hljs-function"><span
+					class="hljs-keyword">def</span> <span class="hljs-title">add</span><span class="hljs-params">(num1,
+					num2)</span>:</span>
+			<span class="hljs-keyword">return</span> int(num1) + int(num2)
+
+			print(add(<span class="hljs-number">9</span>,<span class="hljs-number">10</span>)) <span
+				class="hljs-comment"># 9 and 10 are parameters</span></code></pre>
+	<p>this should output </p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-null">19</code></pre>
+	<p>Basically, the function is just saying, give me two numbers, and I'll add them and return the sum.</p>
+	<h2>Lambda</h2>
+	<p>Lambdas are short functions that you can use in your code, and are assigned to variable names.</p>
+	<p>Here's the syntax</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">variable_name = <span
+				class="hljs-keyword">lambda</span> parameters : code_to_run</code></pre>
+	<p>Calling syntax:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">variable_name(parameters)</code>
+	</pre>
+	<p>And here's an example</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">multiply_by5 = <span
+				class="hljs-keyword">lambda</span> num: num * <span class="hljs-number">5</span> </code></pre>
+	<p>Calling it:</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">print(multiply_by5(<span
+				class="hljs-number">5</span>))</code></pre>
+	<p>Output: <code>25</code></p>
+	<p>You can also use lambdas in function, the are mostly used in the return</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span class="hljs-function"><span
+					class="hljs-keyword">def</span> <span class="hljs-title">concatenator</span><span
+					class="hljs-params">(string)</span>:</span>
+			<span class="hljs-keyword">return</span> <span class="hljs-keyword">lambda</span> string2 : string2 + string
+
+			er_concatenator = concatenator(<span class="hljs-string">"er"</span>)
+			print(er_concatenator(<span class="hljs-string">"Program"</span>))</code></pre>
+	<p>Output:<code>Programer</code></p>
+	<h2>Scopes</h2>
+	<p>A scope is where a variable is stored. Like if it's inside if a function.</p>
+	<h3>Global</h3>
+	<p>The global scope are variables that can be accesed by all of your code.<br>eg.</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python">x = <span class="hljs-string">'This
+				is in the global scope'</span></code></pre>
+	<h3>Local</h3>
+	<p>The local scope is the scope of a function, and you may notice, that when you set a variable inside of a function
+		then you can't access it outside the function, and you will get an error. This happens because the version of
+		that variable only changes inside of the function. Here is an example of the error.</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span class="hljs-function"><span
+					class="hljs-keyword">def</span> <span class="hljs-title">y</span><span
+					class="hljs-params">()</span>:</span>
+			x = <span class="hljs-number">1</span>
+
+			y()
+			print(x)</code></pre>
+	<p>The way you can fix this is by using the global keyword and declaring that variable as a global variable</p>
+	<pre class="jsx-2661271750"><code class="jsx-2661271750 language-py hljs python"><span class="hljs-function"><span
+					class="hljs-keyword">def</span> <span class="hljs-title">y</span><span
+					class="hljs-params">()</span>:</span>
+			<span class="hljs-keyword">global</span> x
+			<span class="hljs-comment"># Declaring x to be a global variable</span>
+			x += <span class="hljs-number">1</span>
+
+			y()
+			print(x)</code></pre>
+	<p>The <code>global</code> keyword basically moves the <code>x</code> variable from the local scope to the global
+		scope, and all changes that are made when the function is called is applied to the global version of
+		<code>x</code>.</p>
+	<h1>Conclusion</h1>
+	<p><del>Wow, did you actually read all of that, or did you just skip to the ending?</del><br>That was (pretty much)
+		all of the python basics!<br>If you want a further explanation on something, or feel as if we missed something,
+		put it in the comments and we will make revisions!</p>
+	<h3>MAIN CONTRIBUTOR: <code>@IntellectualGuy</code></h3>
+	<h4>PARTIAL CONTRIBUTOR: <code>@RhinoRunner</code></h4>
+	<p>Credit for a typo - <span class="jsx-589677836 user-hover-card user-hover-card-inline"><a
+				href="https://replit.com/@mitiok">@mitiok</a></span> </p>
+</div>

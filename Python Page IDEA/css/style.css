@@ -1,0 +1,16 @@
+*{  
+    box-sizing: border-box;
+    padding: 0;
+    /* scrollbar-color: #666 #201c29; */
+    margin: 0;
+}
+
+/* button{} */
+.copied{
+    background: #04AA6D;
+    transition: 0.5s;
+  }
+
+.purple-text{
+    color:#fff1e5 !important;
+}

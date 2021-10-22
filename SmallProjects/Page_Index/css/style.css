@@ -1,0 +1,52 @@
+*{  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.head{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.auto-type{
+    display: flex;
+    background-color: white;
+    height: 100vh;
+    background-image: linear-gradient(to top right, rgb(6, 16, 63), rgba(129, 250, 48, 0.514), orange),url(../../../mypic.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.typing{
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+.typing::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 5%;
+    border-right: rgb(187, 45, 45) 3px solid;
+    animation: blink .8s infinite ease;
+}
+
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
